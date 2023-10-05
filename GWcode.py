@@ -16,6 +16,7 @@ from ott.solvers.quadratic import gw_barycenter as gw_solver
 from ott.problems.quadratic import quadratic_problem
 from ott.solvers.quadratic import gromov_wasserstein
 from ott.solvers.linear import sinkhorn
+from IPython import embed
 import time
 
 FILE = 'halos.pkl.gz'
